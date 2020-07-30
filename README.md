@@ -1,5 +1,7 @@
 # v-money Mask for Vue.js
 
+> Forked to allow blank entries that still have prefix and suffix visible
+
 ![The Mask Money](https://cdn-images-1.medium.com/max/600/1*Rpc289FpghuHrnzyVpOUig.gif)
 
 ## Features
