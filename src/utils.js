@@ -1,7 +1,7 @@
 import defaults from './options'
 
 function format (input, opt = defaults) {
-  if (opt.allowBlank && input == '') {
+  if (opt.allowBlank && (onlyNumbers(input) === '0')) {
     return opt.prefix + '' + opt.suffix
   }
 
